@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+results/
+outputs/
+*.joblib
+*.pkl
+# Original dataset should be obtained from Mendeley Data, not rehosted by default
+data/*
+!data/README.md
+
+catboost_info/
